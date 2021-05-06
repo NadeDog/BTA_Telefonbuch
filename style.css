@@ -78,13 +78,15 @@ a{
 	}
 	.col{
 		align-items:center;
+		justify-content:center;
 	}
 }
 @media (min-width:1024px){
 	.card{
-		flex-basis:23%;
+		flex-basis:20%;
 		justify-content:flex-start;
-		height:50vh;
+		height:40%;
+		width:20%;
 	}
 	img{
 		border-radius:0;
@@ -92,4 +94,4 @@ a{
 		width:101%;
 		height:auto;
 	}
-}
+}/*zufrieden bin ich damit nicht, je größer der Bildschirm, desto hässlicher ^^ */
